@@ -12,7 +12,7 @@ RUN mkdir -p /app
 EXPOSE 8080
 
 # Copy the MicroProfile starter app
-COPY ./target/mp-demo-wildfly.jar /app/
+COPY target/mp-demo-wildfly.jar /app/
 
 # Finally, run the script
 CMD ["java","-jar","mp-demo-wildfly.jar"]
