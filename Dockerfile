@@ -15,4 +15,4 @@ EXPOSE 8080
 COPY target/mp-demo-wildfly.jar /app/
 
 # Finally, run the script
-CMD ["java","-jar","mp-demo-wildfly.jar"]
+CMD ["java","-jar","app/mp-demo-wildfly.jar"]
