@@ -10,6 +10,7 @@ RUN mkdir -p /app
 
 # Expose port
 EXPOSE 8080
+EXPOSE 9990
 
 # Copy the MicroProfile starter app
 COPY target/mp-demo-wildfly.jar /app/
