@@ -1,0 +1,4 @@
+com/redhat/mp/demo/health/ServiceLiveHealthCheck.class
+com/redhat/mp/demo/health/ServiceReadyHealthCheck.class
+com/redhat/mp/demo/MpdemoRestApplication.class
+com/redhat/mp/demo/HelloController.class
